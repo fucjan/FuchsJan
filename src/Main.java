@@ -1,11 +1,43 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+Scanner sc = new Scanner(System.in);
+System.out.println("Zadejte cislo N: ");
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+
+
+
+
+        /*Scanner sc = new Scanner(System.in);
+        Cisla[] cislas = new Cisla[1];
+
+        for(int i = 0; i < cislas.length; i++) {
+            System.out.print("Zadejte cisilka: ");
+            String cisilka = sc.nextLine();
+            sc.nextLine();
+
+            cislas[i] = new Cisla(cisilka);
+        }*/
+
+
+
+
+
+
+
+
+        /*Scanner sc = new Scanner(System.in);
+        Ucitel[] ucitele = new Ucitel[4];
+
+        for (int i = 0; i < ucitele.length; i++) {
+            System.out.println("Zadejte jmeno ucitele " + (i + 1) + ".jmeno: ");
+            String jmeno = sc.nextLine();
+            System.out.print("Zadejte oblibenost ucitele: ");
+            int oblibenost = sc.nextInt();
+            sc.nextLine();
+
+            ucitele[i] = new Ucitel(jmeno, oblibenost);
         }
-    }
+   */ }
 }
